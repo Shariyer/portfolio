@@ -2,11 +2,11 @@
 
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import navbarImg from "../../../images/shariyer.png";
+import navbarImg from "../../../images/ownerPhoto-2.jpeg";
 
 const Header = () => {
   return (
-    <div data-theme="coffee" className="navbar bg-base-100 ">
+    <div data-theme="coffee" className="navbar bg-base-100 py-10">
       <div className="navbar-start md:hidden lg:hidden sm:block">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost btn-circle">
