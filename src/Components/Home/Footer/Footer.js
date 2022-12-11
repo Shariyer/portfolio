@@ -6,7 +6,10 @@ import img from "../../../images/shariyerbg.png";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-center footer items-center p-4 bg-neutral text-neutral-content glass mt-5">
+    <footer
+      data-theme="coffee"
+      className="flex justify-center footer items-center p-4 bg-neutral text-neutral-content glass "
+    >
       <div className="flex flex-col justify-center items-center ">
         <img className="w-20" src={img} alt="" />
         <div className="flex">

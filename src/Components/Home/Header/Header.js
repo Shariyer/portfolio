@@ -81,9 +81,9 @@ const Header = () => {
             />
           </svg>
         </button>
-        <button className="btn btn-ghost btn-circle">
+        <button className="btn btn-ghost btn-circle ">
           <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-            <div className="w-10 rounded-full">
+            <div className="w-32 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 ">
               <img src={navbarImg} alt="" />
             </div>
           </label>
