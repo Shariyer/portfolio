@@ -43,20 +43,20 @@ const Header = () => {
       </div>
       <div className="navbar-start md:block lg:block hidden">
         <ul tabIndex={1} className="mr-4 p-2 shadow bg-base-100 rounded-box ">
-          <NavLink
+          <Link
             className="mr-2 px-3 text-xl text-orange-400 font-semibold"
             to="/"
           >
             Portfolio
-          </NavLink>
+          </Link>
 
-          <NavLink className="mr-2 px-3 text-white" to="blog">
+          <Link to="blog" className="mr-2 px-3 text-white">
             Blog
-          </NavLink>
+          </Link>
 
-          <NavLink className="text-white" to="about">
+          <Link to="about" className="text-white">
             About
-          </NavLink>
+          </Link>
         </ul>
       </div>
       <div className="navbar-center">

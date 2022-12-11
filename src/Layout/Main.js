@@ -2,14 +2,14 @@
 
 import React from "react";
 import Header from "../Components/Home/Header/Header";
-import Home from "../Components/Home/Home";
 import Footer from "../Components/Home/Footer/Footer";
+import { Outlet } from "react-router-dom";
 
 const Main = () => {
   return (
     <div>
       <Header />
-      <Home />
+      <Outlet></Outlet>
       <Footer />
     </div>
   );

@@ -64,10 +64,12 @@ const MainContent = () => {
       {/* Skill section */}
       <div data-theme="coffee" className="py-10 hero">
         <div
-          className="radial-progress text-primary "
+          className="radial-progress text-orange-500 "
           style={{ "--value": "70", "--size": "12rem", "--thickness": "2rem" }}
         >
-          <h3 className="text-xl font-bold ">My skills</h3>
+          <h3 className="text-xl font-extrabold ring ring-gray-300 rounded-full py-9 px-6 ring-offset-8">
+            Skills
+          </h3>
         </div>
       </div>
       <div className="relative flex flex-col w-full lg:flex-row">
@@ -268,21 +270,23 @@ const MainContent = () => {
         </div>
       </div>
       {/* Projects section */}
-      <div data-theme="coffee" className="bg-base-300 rounded-3xl  ">
+      <div data-theme="coffee" className="rounded-3xl  ">
         <div className="flex justify-center py-10 ">
           <div
-            className="radial-progress text-primary "
+            className="radial-progress text-orange-500 "
             style={{
               "--value": "80",
               "--size": "12rem",
               "--thickness": "2rem",
             }}
           >
-            <h3 className="text-xl font-bold ">Projects</h3>
+            <h3 className="text-xl font-extrabold ring ring-gray-300 rounded-full py-9 px-3 ring-offset-8">
+              Projects
+            </h3>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-y-10 md:gap-5 lg:gap-5 w-11/12 mx-auto bg-base-300 py-5">
-          <div className="card w-90 glass ">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-y-10 md:gap-5 lg:gap-5 w-11/12 mx-auto py-5">
+          <div className="card w-90 glass hover:ring hover:ring-gray-100 ">
             <figure>
               <img className="mt-10 rounded-2xl " src={carsLobby} alt="car!" />
             </figure>
@@ -292,26 +296,26 @@ const MainContent = () => {
               <div className="flex justify-evenly ">
                 <a
                   href="https://cars-lobby.web.app"
-                  className="btn btn-primary font-bold"
+                  className=" btn glass text-white font-bold hover:ring hover:ring-white hover:ring-offset-0"
                 >
                   Live{" "}
                 </a>
                 <a
                   href="https://github.com/Shariyer/Cars-Lobby-client"
-                  className="btn btn-primary font-bold"
+                  className=" btn glass text-white font-bold hover:ring hover:ring-white hover:ring-offset-0"
                 >
                   Client{" "}
                 </a>
                 <a
                   href="https://github.com/Shariyer/-Cars-Lobby-server"
-                  className="btn btn-primary font-bold"
+                  className=" btn glass text-white font-bold hover:ring hover:ring-white hover:ring-offset-0"
                 >
                   Server{" "}
                 </a>
               </div>
             </div>
           </div>
-          <div className="card w-90 glass">
+          <div className="card w-90 glass hover:ring hover:ring-gray-100">
             <figure>
               <img className="mt-10 rounded-2xl" src={photography} alt="car!" />
             </figure>
@@ -323,55 +327,55 @@ const MainContent = () => {
               <div className="flex justify-evenly">
                 <a
                   href="https://sm-s-snap.web.app"
-                  className="btn btn-primary font-bold"
+                  className=" btn glass text-white font-bold hover:ring hover:ring-white hover:ring-offset-0"
                 >
                   Live{" "}
                 </a>
                 <a
                   href="https://github.com/Shariyer/sm-s-photography-client"
-                  className="btn btn-primary font-bold"
+                  className=" btn glass text-white font-bold hover:ring hover:ring-white hover:ring-offset-0"
                 >
                   Client{" "}
                 </a>
                 <a
                   href="https://github.com/Shariyer/sm-s-photography-server"
-                  className="btn btn-primary font-bold"
+                  className=" btn glass text-white font-bold hover:ring hover:ring-white hover:ring-offset-0"
                 >
                   Server{" "}
                 </a>
               </div>
             </div>
           </div>
-          <div className="card w-90 glass">
+          <div className="card w-90 glass hover:ring hover:ring-gray-100">
             <figure>
               <img className="mt-10 rounded-2xl" src={solid} alt="car!" />
             </figure>
             <div className="card-body">
               <h2 className="card-title text-black font-bold">Solid Basic</h2>
               <p className="text-white">A Course based website.</p>
-              <div className="flex justify-evenly">
+              <div className="flex justify-evenly ">
                 <a
                   href="https://solid-basic.web.app/"
-                  className="btn btn-primary font-bold"
+                  className="btn glass text-white font-bold hover:ring hover:ring-white hover:ring-offset-0"
                 >
                   Live
                 </a>
                 <a
                   href="https://github.com/Shariyer/solid-basic-client"
-                  className="btn btn-primary font-bold"
+                  className=" btn glass text-white font-bold hover:ring hover:ring-white hover:ring-offset-0"
                 >
                   Client
                 </a>
                 <a
                   href="https://github.com/Shariyer/solid-basic-server"
-                  className="btn btn-primary font-bold"
+                  className=" btn glass text-white font-bold hover:ring hover:ring-white hover:ring-offset-0"
                 >
                   Server{" "}
                 </a>
               </div>
             </div>
           </div>
-          <div className="card w-90 glass">
+          <div className="card w-90 glass hover:ring hover:ring-gray-100">
             <figure>
               <img className="mt-10 rounded-2xl" src={Quizer} alt="car!" />
             </figure>
@@ -381,13 +385,13 @@ const MainContent = () => {
               <div className="flex justify-evenly">
                 <a
                   href="https://b6-quiz-crackerz-shariyer.netlify.app/"
-                  className="btn btn-primary font-bold"
+                  className=" btn glass text-white font-bold hover:ring hover:ring-white hover:ring-offset-0"
                 >
                   Live
                 </a>
                 <a
                   href="https://github.com/Shariyer/Quizer-s-Pro"
-                  className="btn btn-primary font-bold"
+                  className=" btn glass text-white font-bold hover:ring hover:ring-white hover:ring-offset-0"
                 >
                   Git Link
                 </a>
@@ -397,7 +401,10 @@ const MainContent = () => {
         </div>
       </div>
       {/* download resume section */}
-      <div data-theme="coffee" className="glass mt-5 rounded-3xl mb-5">
+      <div
+        data-theme="coffee"
+        className="glass mt-5 rounded-3xl mb-5 shadow-2xl"
+      >
         <div className="relative">
           <h3 className="p-10 text-black font-bold text-3xl">
             DownLoad My Resume
@@ -417,8 +424,7 @@ const MainContent = () => {
             <h3 className="my-5 text-white font-bold text-xl ">
               Drop Your Contact
             </h3>
-            <div className="form-control">
-              <label className="label"></label>
+            <div className="form-control hover:ring hover:ring-white ring-offset-0 py-2 mb-3 rounded-xl">
               <label className="input-group input-group-vertical">
                 <span className="label-text text-black font-semibold glass w-full">
                   Email
@@ -430,8 +436,7 @@ const MainContent = () => {
                 />
               </label>
             </div>
-            <div className="form-control">
-              <label className="label"></label>
+            <div className="form-control hover:ring hover:ring-white ring-offset-0 py-2 mb-3 rounded-xl">
               <label className="input-group input-group-vertical">
                 <span className="label-text text-black font-semibold glass w-full">
                   Email
@@ -443,8 +448,7 @@ const MainContent = () => {
                 />
               </label>
             </div>
-            <div className="form-control">
-              <label className="label"></label>
+            <div className="form-control hover:ring hover:ring-white ring-offset-0 py-2 mb-3 rounded-xl">
               <label className="input-group input-group-vertical">
                 <span className="label-text text-black font-semibold glass w-full">
                   Phone
@@ -458,7 +462,7 @@ const MainContent = () => {
             </div>
 
             <input
-              className="input mt-3 btn btn-primary font-bold"
+              className=" input mt-3 glass btn  text-white font-bold hover:ring hover:ring-white hover:ring-offset-0"
               type="submit"
               value="Submit"
             />

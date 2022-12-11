@@ -1,21 +1,28 @@
 /** @format */
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
-import Blog from "./Components/Blog/Blog";
+import Blog from "../src/Components/Blog/Blog";
 import Main from "./Layout/Main";
+import MainContent from "./Components/Home/MainContent/MainContent";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
-  },
-  {
-    path: "/blog",
-    element: <Blog />,
-  },
-  {
-    path: "/about",
-    element: <Blog />,
+    children: [
+      {
+        path: "/",
+        element: <MainContent></MainContent>,
+      },
+      {
+        path: "/blog",
+        element: <Blog />,
+      },
+      {
+        path: "/about",
+        element: <Blog />,
+      },
+    ],
   },
 ]);
 
