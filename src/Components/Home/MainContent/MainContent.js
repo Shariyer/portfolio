@@ -22,7 +22,7 @@ const MainContent = () => {
         </figure>
         <div className="card-body lg:w-1/2 md:w-1/2 w-full">
           <h1 className="text-4xl font-extrabold ">
-            <span className="text-orange-400">S.M. Shariyer</span>{" "}
+            <span className="text-orange-600">S.M. Shariyer</span>{" "}
             <span className="text-white">HERE!!</span>
           </h1>
           <p className="text-xl text-white font-semibold ">
@@ -71,7 +71,7 @@ const MainContent = () => {
         </div>
       </div>
       <div className="relative flex flex-col w-full lg:flex-row">
-        <h2 className="absolute top-[2px]">Frontend</h2>
+        {/* <h2 className="absolute top-[2px]">Frontend</h2> */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5  flex-grow h-auto card  rounded-box place-items-center">
           {/* skill */}
           {/* react js */}
@@ -289,7 +289,7 @@ const MainContent = () => {
             <div className="card-body">
               <h2 className="card-title text-black font-bold">Cars Lobby</h2>
               <p className="text-white">A second hand Car selling website</p>
-              <div className="flex justify-evenly">
+              <div className="flex justify-evenly ">
                 <a
                   href="https://cars-lobby.web.app"
                   className="btn btn-primary font-bold"
