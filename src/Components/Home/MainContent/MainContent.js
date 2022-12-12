@@ -40,7 +40,7 @@ const MainContent = () => {
           <div className="text-white glass rounded-l-2xl">
             <p
               data-theme="coffee"
-              className="text-2xl font-bold  ml-24 mt-5 pl-2 py-4 glass "
+              className="text-2xl font-bold  ml-24 mt-5 pl-2 py-4 glass hover:translate-x-5 transition duration-100 ease-out hover:ease-in"
             >
               Find Me
             </p>
@@ -62,9 +62,9 @@ const MainContent = () => {
         </div>
       </div>
       {/* Skill section */}
-      <div data-theme="coffee" className="py-10 hero">
+      <div data-theme="coffee" className="py-10 hero ">
         <div
-          className="radial-progress text-orange-500 "
+          className="radial-progress text-orange-500 hover:translate-x-10 transition duration-100 ease-out hover:ease-in"
           style={{ "--value": "70", "--size": "12rem", "--thickness": "2rem" }}
         >
           <h3 className="text-xl font-extrabold ring ring-gray-300 rounded-full py-9 px-6 ring-offset-8">
@@ -273,7 +273,7 @@ const MainContent = () => {
       <div data-theme="coffee" className="rounded-3xl  ">
         <div className="flex justify-center py-10 ">
           <div
-            className="radial-progress text-orange-500 "
+            className="radial-progress text-orange-500 hover:translate-x-10 transition duration-100 ease-out hover:ease-in "
             style={{
               "--value": "80",
               "--size": "12rem",
@@ -400,10 +400,51 @@ const MainContent = () => {
           </div>
         </div>
       </div>
+      {/* Education section */}
+
+      <div className="mb-5 ">
+        <div data-theme="coffee" className="py-10 hero ">
+          <div
+            className="radial-progress text-orange-500 hover:translate-x-10 transition duration-150 ease-out hover:ease-in"
+            style={{
+              "--value": "70",
+              "--size": "12rem",
+              "--thickness": "2rem",
+            }}
+          >
+            <h3 className="text-xl font-extrabold ring ring-gray-300 rounded-full py-9 px-1 ring-offset-8">
+              Education
+            </h3>
+          </div>
+        </div>
+        <div data-theme="coffee" className=" ">
+          <div className="glass text-black lg:py-4 lg:p-10 my-3 lg:w-10/12 w-10/12 mx-auto py-2 p-3 rounded-md hover:translate-x-10 transition duration-150 ease-out hover:ease-in">
+            <label className="text-white font-semibold">
+              Computer Science and Engineering
+            </label>
+            <h3 className="font-bold lg:text-3xl text-xl">
+              American International University Bangladesh.
+            </h3>
+          </div>
+          <div className="glass text-black lg:py-4 lg:p-10 my-3 lg:w-10/12 w-10/12 mx-auto py-2 p-3 rounded-md hover:translate-x-10 transition duration-150 ease-out hover:ease-in">
+            <label className="text-white font-semibold">Science</label>
+            <h3 className="font-bold lg:text-3xl text-xl">
+              Bogra Cantonment Public School and College, Bogra.
+            </h3>
+          </div>
+          <div className="glass text-black lg:py-4 lg:p-10 my-3 lg:w-10/12 w-10/12 mx-auto py-5 p-3 rounded-md hover:translate-x-10 transition duration-150 ease-out hover:ease-in ">
+            <label className="text-white font-semibold">Science</label>
+            <h3 className="font-bold lg:text-3xl text-xl">
+              Naogaon Zilla School, Naogaon.
+            </h3>
+          </div>
+        </div>
+      </div>
+
       {/* download resume section */}
       <div
         data-theme="coffee"
-        className="glass mt-5 rounded-3xl mb-5 shadow-2xl"
+        className="glass mt-5 rounded-3xl mb-5 shadow-2xl hover:ring hover:ring-white "
       >
         <div className="relative">
           <h3 className="p-10 text-black font-bold text-3xl">
