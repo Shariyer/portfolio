@@ -40,12 +40,12 @@ const MainContent = () => {
           <div className="text-white glass rounded-l-2xl">
             <p
               data-theme="coffee"
-              className="text-2xl font-bold  ml-24 mt-5 pl-2 py-4 glass hover:translate-x-5 transition duration-100 ease-out hover:ease-in"
+              className="text-2xl font-bold  ml-24 mt-5 pl-2 py-4 glass hover:translate-x-5 transition duration-100 ease-in "
             >
               Find Me
             </p>
             <div className="flex  my-4 ">
-              <NavLink className="text-4xl text-blue-600 hover:bg-pink-600 p-5 hover:rounded-full">
+              <NavLink className="text-4xl text-blue-600 hover:bg-pink-600 p-5 hover:rounded-full ">
                 <FaLinkedin />
               </NavLink>
               <NavLink className="text-4xl text-white hover:bg-pink-600 p-5 hover:rounded-full">
@@ -418,25 +418,34 @@ const MainContent = () => {
           </div>
         </div>
         <div data-theme="coffee" className=" ">
-          <div className="glass text-black lg:py-4 lg:p-10 my-3 lg:w-10/12 w-10/12 mx-auto py-2 p-3 rounded-md hover:translate-x-10 transition duration-150 ease-out hover:ease-in">
+          <div className="relative glass text-black lg:py-4 lg:p-10 my-3 mb-10 lg:w-10/12 w-11/12 mx-auto py-2 p-3 pr-6 rounded-md hover:translate-x-5 transition duration-150 ease-out hover:ease-in">
             <label className="text-white font-semibold">
               Computer Science and Engineering
             </label>
             <h3 className="font-bold lg:text-3xl text-xl">
               American International University Bangladesh.
             </h3>
+            <label className="lg:w-32  text-center w-24 text-pink-500 lg:text-xl text-sm font-bold lg:block md:block hidden  bg-gradient-to-r from-fuchsia-900 to-blue-700 py-9 px-5 absolute lg:right-5 right-0 h-8 lg:top-0 top-3 rotate-90">
+              University
+            </label>
           </div>
-          <div className="glass text-black lg:py-4 lg:p-10 my-3 lg:w-10/12 w-10/12 mx-auto py-2 p-3 rounded-md hover:translate-x-10 transition duration-150 ease-out hover:ease-in">
+          <div className="relative glass text-black lg:py-4 lg:p-10 my-3 mb-10 lg:w-10/12 w-11/12 mx-auto py-2 p-3 pr-6 rounded-md hover:translate-x-5 transition duration-150 ease-out hover:ease-in">
             <label className="text-white font-semibold">Science</label>
             <h3 className="font-bold lg:text-3xl text-xl">
               Bogra Cantonment Public School and College, Bogra.
             </h3>
+            <label className="lg:w-32  text-center w-24 text-pink-500 lg:text-xl text-sm font-bold lg:block md:block hidden  bg-gradient-to-r from-fuchsia-900 to-blue-700 py-9 px-5 absolute lg:right-5 right-0 h-8 lg:top-0 top-3 rotate-90">
+              College
+            </label>
           </div>
-          <div className="glass text-black lg:py-4 lg:p-10 my-3 lg:w-10/12 w-10/12 mx-auto py-5 p-3 rounded-md hover:translate-x-10 transition duration-150 ease-out hover:ease-in ">
+          <div className="relative glass text-black lg:py-4 lg:p-10 my-3 mb-10 lg:w-10/12 w-11/12 mx-auto py-5 p-3 pr-6 rounded-md hover:translate-x-5 transition duration-150 ease-out hover:ease-in ">
             <label className="text-white font-semibold">Science</label>
             <h3 className="font-bold lg:text-3xl text-xl">
               Naogaon Zilla School, Naogaon.
             </h3>
+            <label className="lg:w-32  text-center w-24 text-pink-500 lg:text-xl text-sm font-bold lg:block md:block hidden  bg-gradient-to-r from-fuchsia-900 to-blue-700 py-9 px-5 absolute lg:right-5 right-0 h-8 lg:top-0 top-3 rotate-90">
+              School
+            </label>
           </div>
         </div>
       </div>

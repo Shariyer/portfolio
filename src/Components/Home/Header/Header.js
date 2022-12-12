@@ -38,6 +38,25 @@ const Header = () => {
             <li>
               <NavLink to="about">About</NavLink>
             </li>
+            <li className="btn">
+              <div className=" flex">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                  />
+                </svg>
+                <label>Search</label>{" "}
+              </div>
+            </li>
           </ul>
         </div>
       </div>
@@ -57,6 +76,22 @@ const Header = () => {
           <Link to="about" className="text-white">
             About
           </Link>
+          <Link className="btn btn-ghost btn-circle flex justify-center items-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 block"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
+          </Link>
         </ul>
       </div>
       <div className="navbar-center">
@@ -65,22 +100,6 @@ const Header = () => {
         </Link>
       </div>
       <div className="navbar-end">
-        <button className="btn btn-ghost btn-circle">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-            />
-          </svg>
-        </button>
         <button className="btn btn-ghost btn-circle ">
           <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
             <div className="w-32 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 ">
